@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.cabeçalho {
+    background-color: black;
+    display: flex;
+    padding: 8px;
+}
+
+body {
+    background-image: url(https://static.shoptimao.com.br/bnn/l_corinthians/2023-07-04/8299_0307_LP_B2B_1920x960_Timao_10.jpg);
+
+}
+
+#site {
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+body > header {
+    padding: 30px 10%;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+display: inline;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+margin-left: 16px;
+font-family: 'Montserrat';
+}
+
+header li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 220px;
+    width: 26em;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.articles article a {
+color: black;
+padding: 8px;
+display: inline-block;
+text-decoration: none;
+font-weight: bolder;
+margin-top: 0px;
+margin-left: 0px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: transform 0.45s;
+}
+
+.articles article p, .articles article a {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.articles article h3 {
+    font-size: 22px;
+    color: #ffffff;
+
+}
+
+section h2 {
+    font-size: 34px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.rodape {
+    text-align: center;
+    background-color: black;
+    padding: 8px;
+    font-size: 1em;
+    color: white;
+    width: 100%;
+    height: 400px;
+}
+
+#link {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    transform: rotate(180deg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
